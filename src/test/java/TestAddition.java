@@ -15,7 +15,7 @@ public class TestAddition {
 
 	@Test
 	public void testAddition() {
-		System.out.println("Test about to start....");
+		System.out.println("Test about to start....123");
 		System.out.println("Test about to start....");
 		int result = obj.add(10, 20);
 		Assert.assertTrue("add not working", result == 30);
